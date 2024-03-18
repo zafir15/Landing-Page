@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.upper{
+    height: 450px;
+    width: 98vw;
+    /* background-image: linear-gradient(to right, navy); */
+    background-color: navy;
+    margin-top: 70px;
+    color: white;
+    padding:  5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-left: 4px;
+}
+.leftSide{
+    width: 350px; 
+}
+.text{
+    font-size: 18px;
+}
+h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+.rightSide img{
+    height: 450px;
+}
+.firstComponent img{
+    height: 450px;
+}
+.firstComponent{
+    color: gray;
+    height: 500px;
+    width: 95vw;
+    border: 1px solid silver;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 20px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.heading{
+    color: black;
+}
+.right{
+    padding: 40px;
+    width: 650px;
+}
+.left{
+    width: 400px;
+    object-fit: cover;
+}
+.list{
+    margin-left: 40px;
+}
+/* .txt{
+    font-size: 20px;
+} */
+.jstadded{
+    margin-left: 20px;
+    color: gray;
+}
+.secondImage {
+    height: 500px; 
+    width: 400px; 
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.secondImage img {
+    object-fit: cover;
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+}
+.fstPart{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+span{
+    font-weight: bold;
+}
+.logo>img{
+    height: 30px;
+    width: 30px; 
+    margin-right: 10px;
+}
+.fstlogo, .scndlogo{
+    display: flex;
+    align-items: center;
+}
+.scndPart{
+    display: flex;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.735);
+    cursor: pointer;
+}
+.btn2{
+    background-color: white;
+}
+.footer{
+    background-image: linear-gradient(160deg, rgb(14, 99, 132), purple, navy);
+    color: white;
+    padding: 40px;
+    margin-bottom: 500px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    margin: 20px;
+}
+.footerHeading{
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.LMbtnDiv{
+    display: flex;
+    align-items: center;
+}
+.footerrighttSide img{
+    height: 450px;
+}
+.LMbtn>img{
+    height: 30px;
+    width: 30px;
+    /* position: absolute; */  
+}
+.LMbtn{
+    background-color: #F65B66;
+    border: 1px solid #F65B66;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.awslogo>img{
+    height: 50px;
+    width: 100px;
+}
+
+.footerInsideHeading{
+    width: 500px;
+    font-size: 40px;
+}
+.footertxt{
+    width: 600px;
+}
+.secondFooter{
+    background-color:rgb(69, 83, 83);
+   padding-top: 100px;
+    /* margin-top: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secondFooter>h2{
+    color: white;
+    height: 50px;
+}
+.lastLI{
+    list-style-type: none;
+    font-size: larger;
+}
+.textend{
+    padding: 100px;
+    font-size: x-large;
+    font-style: italic;
+    color: grey;
+}
+a{
+    color: rgb(236, 107, 107);
+    text-decoration: none;
+}
+.footerUL{
+    display: flex;
+    gap: 30px;
+}
+
+.images{
+    display: flex;
+    gap: 30px;
+}
+.secondImage>img{
+    object-fit:"cover"; 
+    }
